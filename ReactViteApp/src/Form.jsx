@@ -21,6 +21,8 @@ function Form(props){
         } else {
             console.log (name, URL)
             props.onNewSubmit({name, URL})
+            setName("")
+            setURL("")
         }
         
         
