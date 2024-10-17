@@ -22,8 +22,9 @@ function App(){
 
     <div>
     <h1 className="testClass">Submit your Fav Link</h1>
+
       <Form onNewSubmit = {handleNewSubmission}/>
-      <Table link={favLinks}/>
+      <Table links={favLinks}/>
     
     </div>
   )
